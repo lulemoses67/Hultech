@@ -2,6 +2,7 @@ import { Component } from "react";
 import Header from "./Componets/Header";
 import Footer from "./Componets/Footer";
 import Hero from "./Componets/Hero";
+import Home from "./Componets/Home";
 
 class MainComponent extends Component {
     state = {  } 
@@ -12,6 +13,7 @@ class MainComponent extends Component {
              <Header/>
              <main>
                 <Hero/>
+                <Home />
              </main>
              <Footer/>
             </>
