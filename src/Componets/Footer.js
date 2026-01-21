@@ -43,11 +43,11 @@ const Footer = () => {
                             <div className="col-4 col-md-6 col-xs-12">
                                 <div className="gap-fix">
                                     <h2>Contact</h2>
-                                    <p><i class="fa-solid fa-phone text-success"></i> +256 704280086</p>
-                                    <p><i class="fab fa-whatsapp text-success"></i> +256 788252428</p>
-                                    <p><i class="fa-solid fa-envelope text-success"></i> <a href="dennisbwamiki77@gmail.com"> dennisbwamiki77@gmail.com</a></p>
-                                    <p><i class="fa-solid fa-location text-success"></i> Kamapla, Uganda</p>
-                                    <p><i class="fab fa-facebook text-primary"></i> <a href="3">3d Signs</a></p>
+                                    <p><i className="fa-solid fa-phone text-success"></i> +256 704280086</p>
+                                    <p><i className="fab fa-whatsapp text-success"></i> +256 788252428</p>
+                                    <p><i className="fa-solid fa-envelope text-success"></i> <a href="dennisbwamiki77@gmail.com"> dennisbwamiki77@gmail.com</a></p>
+                                    <p><i className="fa-solid fa-location text-success"></i> Kamapla, Uganda</p>
+                                    <p><i className="fab fa-facebook text-primary"></i> <a href="3">3d Signs</a></p>
                                 </div>
                             </div>
                         </div>

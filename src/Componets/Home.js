@@ -11,10 +11,10 @@ class Home extends Component {
                     <div className="container">
                         <h3 className="section-title ">Ultimate D<span className="text-primary">igital Growth Parnter</span></h3>
                         <div className="row-content">
-                        <p className="">for you next W<span className="text-primary">eb Solution</span></p>
+                        <p className="">[ For you next W<span className="text-primary">eb Solution ]</span></p>
                         <div className="row align-center justify-center  row-content">
                             <div className="col-4 d-none-xs">
-                                <img src="https://blog.grantmcgregor.co.uk/hubfs/web%20developer.png" alt="img" />
+                                <p>img</p>
                             </div>
                             <div className="col-8 col-xs-12">
                                 <div className="gap-fix">

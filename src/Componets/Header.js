@@ -29,7 +29,6 @@ const Header = (props) => {
                 <div className="row align-center">
                     <div className="col-xs-11 col-lg-4 d-none-md row align-center">
                         <div className="col-2 col-xs-2">
-                            <img src="https://icon.icepanel.io/Technology/png-shadow-512/Crystal.png" alt="hello" />
                         </div>
                         <div className="col-10 col-xs-10">
                             <span className="logo">Hul<span className="small">tech</span></span>

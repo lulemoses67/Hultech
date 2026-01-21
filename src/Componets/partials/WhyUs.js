@@ -3,34 +3,34 @@ const WhyUs = () => {
         <section>
             <div className="container">
                 <h3 className="section-title">Why Choose Us</h3>
-                <p className="text-primary">Illuminate your Brand</p>
+                <p className="text-primary">[ Turning Clicks into Clients ]</p>
                 <div className="row justify-center row-content">
                     <div className="col-3 col-md-6 col-xs-12">
                         <div className="gap-fix">
-                            <p><i class="fa-solid fa-pen x4"></i></p>
-                            <h2>Design Consultation</h2>
-                            <p>Collaborative design sessions for captivating pylon, 3D, plate, and neon signage concepts</p>
+                            <p><i className="fa-solid fa-pen x4"></i></p>
+                            <h2>Best web designs</h2>
+                            <p>Awesome web interface and, we make your web application look awesome and attractive.</p>
                         </div>
                     </div>
                     <div className="col-3 col-md-6 col-xs-12">
                         <div className="gap-fix">
-                            <p><i class="fa-sharp-duotone fa-solid fa-object-ungroup x4"></i></p>
-                            <h2>Custom Fabrication</h2>
-                            <p>Crafting bespoke pylon structures and dynamic signage with precision and creativity.</p>
+                            <p><i className="fa-sharp-duotone fa-solid fa-object-ungroup x4"></i></p>
+                            <h2>SEO optmization</h2>
+                            <p>Our technologies are designed to target your market audience. Turning clicks into clients</p>
                         </div>
                     </div>
                     <div className="col-3 col-md-6 col-xs-12">
                         <div className="gap-fix">
-                            <p><i class="fa-solid fa-layer-group x4"></i></p>
+                            <p><i className="fa-solid fa-layer-group x4"></i></p>
                             <h2>Expert Installation</h2>
                             <p>Expert installation of pylon signs and vibrant neon displays for impactful presence.</p>
                         </div>
                     </div>
                     <div className="col-3 col-md-6 col-xs-12">
                         <div className="gap-fix">
-                            <p><i class="fa-solid fa-eraser x4"></i></p>
+                            <p><i className="fa-solid fa-eraser x4"></i></p>
                             <h2>Ongoing Maintenance</h2>
-                            <p>Dedicated upkeep to preserve the brilliance and functionality of your signage investments.</p>
+                            <p>Dedicated to preserve the brilliance and functionality of your website or app.</p>
                         </div>
                     </div>
                 </div>

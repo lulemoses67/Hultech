@@ -2,28 +2,28 @@
 
 const Featured = () => {
     return (
-            <section className="reveal active fade-in bg-dark text-white">
+            <section className="reveal active fade-in">
                 <div className="container">
-                    <h3 className="section-title text-center">Lighting up Your Vision</h3>
-                    <p className="text-center">[ Transforming brands with creative 3D, neon, and plate signage solutions ]</p>            
+                    <h3 className="section-title">Lighting up Yo<span className="text-primary">ur Vision</span></h3>
+                    <p>[ Transforming brands into di<span className="text-primary">gital assets ]</span></p>            
                     <div className='row-content row'>
                         <div className='col-4'>
                             <div className='gap-fix'>
-                            <img src="https://blog.grantmcgregor.co.uk/hubfs/web%20developer.png" alt="hello" />
+                            <p>img</p>
                             </div>
                         </div>
                         <div className='col-4'>
                             <div className='gap-fix'>
-                            <img src="https://blog.grantmcgregor.co.uk/hubfs/web%20developer.png" alt="hello" />
+                            <p>img</p>
                             </div>
                         </div>
                         <div className='col-4'>
                             <div className='gap-fix'>
-                            <img src="https://blog.grantmcgregor.co.uk/hubfs/web%20developer.png" alt="hello" />
+                            <p>img</p>
                             </div>
                         </div>
                     </div>
-                    <div className="btn-group">
+                    <div className="btn-group-rt">
                         <button className="btn-primary">Gallery</button>
                     </div>
                 </div>
