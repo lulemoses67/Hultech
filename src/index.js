@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './css/styles.scss';
+import './css/styles.css';
 import "https://kit.fontawesome.com/fe1eb17f11.js";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
