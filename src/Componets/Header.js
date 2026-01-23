@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
 
@@ -18,7 +19,7 @@ const Header = (props) => {
     
     const NavItem = (props) => {
         return (
-            <a className="nav-item" href={props.link} onClick={toogleNav}>{props.name}</a>
+            <NavLink className="nav-item" to={props.link} onClick={toogleNav}>{props.name}</NavLink>
         );
     }
 
@@ -45,8 +46,8 @@ const Header = (props) => {
                             <ol className="nav-bars">
                                 <NavItem link="/" name="Home"/>
                                 <NavItem link="/about" name="About"/>
-                                <NavItem link="/projects" name="Portfolio"/>
-                                <NavItem link="/t&cs" name="Contact"/>
+                                <NavItem link="/gallery" name="Portfolio"/>
+                                <NavItem link="/contact" name="Contact"/>
                             </ol>
                         </nav>}
                     </div>
