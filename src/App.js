@@ -1,4 +1,4 @@
-const MainComponent = require('./MainComponent.js');
+import MainComponent from "./MainComponent.js";
 
 
 function App() {
