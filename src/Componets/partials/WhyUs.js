@@ -23,7 +23,7 @@ const WhyUs = () => {
                         <div className="gap-fix">
                             <p><i className="fa-solid fa-layer-group x4"></i></p>
                             <h2>Expert Installation</h2>
-                            <p>Expert installation of pylon signs and vibrant neon displays for impactful presence.</p>
+                            <p>Expert installation of websites and application considering all devices andriod, ioS and desktop.</p>
                         </div>
                     </div>
                     <div className="col-3 col-md-6 col-xs-12">

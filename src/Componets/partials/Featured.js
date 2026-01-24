@@ -9,17 +9,17 @@ const Featured = () => {
                     <div className='row-content row'>
                         <div className='col-4'>
                             <div className='gap-fix'>
-                            <p>img</p>
+                            <img src="https://images.pexels.com/photos/1581634/pexels-photo-1581634.jpeg" alt="g" />
                             </div>
                         </div>
                         <div className='col-4'>
                             <div className='gap-fix'>
-                            <p>img</p>
+                            <img src="https://images.pexels.com/photos/1581634/pexels-photo-1581634.jpeg" alt="g" />
                             </div>
                         </div>
                         <div className='col-4'>
                             <div className='gap-fix'>
-                            <p>img</p>
+                            <img src="https://images.pexels.com/photos/1581634/pexels-photo-1581634.jpeg" alt="g" />
                             </div>
                         </div>
                     </div>
