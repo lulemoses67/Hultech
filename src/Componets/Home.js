@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-import Hero from "./partials/Hero";
-import Featured from './partials/Featured';
-import WhyUs from './partials/WhyUs';
-import Feedback from './partials/Feedback';
 
-class Home extends Component {
-    render() {
-        return (
-            <>
-                <Hero bgimg="https://images.pexels.com/photos/31505955/pexels-photo-31505955.jpeg" title="Turning Clicks into Clients" body="Move and Grow your business online Today with our experts"/>
+// import Hero from "./partials/Hero.js";
+
+const Hero = require('./partials/Hero.js');
+
+function Home() {
+    return ( 
+        <>
+                <Hero/>
                 <section className='reveal active fade-in'>
                     <div className="container">
                         <h3 className="section-title ">Ultimate D<span className="text-primary">igital Growth Parnter</span></h3>
@@ -30,13 +28,10 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>  
-                <Featured />
-                <WhyUs/>
-                <Feedback />
                 
             </>
-        );
-    }
+     );
 }
 
 export default Home;
+
