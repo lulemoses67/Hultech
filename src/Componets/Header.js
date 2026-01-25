@@ -1,18 +1,31 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
 
-    const [isNavOpen, setIsNavOpen] = useState(true);
+    // 1. Initialize state based on current window width
+    const [isNavOpen, setIsNavOpen] = useState(window.innerWidth > 539);
 
-    window.addEventListener('load', () => window.innerWidth > 539 ? setIsNavOpen(true) : setIsNavOpen(false));
-    window.addEventListener('resize', () => window.innerWidth > 539 ? setIsNavOpen(true) : setIsNavOpen(false));
+    // 2. Optimized resize listener
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth > 539) {
+                setIsNavOpen(true);
+            } else {
+                setIsNavOpen(false);
+            }
+        };
+
+        window.addEventListener('resize', handleResize);
+        
+        // Cleanup listener on component unmount
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const toogleNav = () => {
         // window.scrollTo(0,0);
         isNavOpen && window.innerWidth < 538 ? setIsNavOpen(false) : setIsNavOpen(true);
     }
-    
     var navs = document.getElementsByTagName('a');
 
     for (let i = 0; i < navs.length; i++) navs[i].addEventListener('click', () => window.scrollTo(0,0));
