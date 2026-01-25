@@ -1,6 +1,6 @@
 const WhyUs = () => {
     return (
-        <section>
+        <section className="reveal fade-in">
             <div className="container">
                 <h3 className="section-title">Why Choose Us</h3>
                 <p className="text-primary">[ Turning Clicks into Clients ]</p>

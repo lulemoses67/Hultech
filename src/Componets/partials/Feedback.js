@@ -2,30 +2,30 @@ import React from 'react';
 
 const Feedback = () => {
     return (
-        <section>
+        <section className='reveal fade-in'>
             <div className="container">
                 <h3 className="section-title "><span className='text-primary'>Our B</span>log</h3>
                 <p>Keep updated with all tech news</p>
                 <div className='row-content row'>
-                    <div className='col-4 col-md-6 col-xs-12'>
-                        <div className='card-feedback '>
-                            <p>img</p>
-                            <h2>Ai making life easy</h2>
-                            <p>"The sleek design of our signage commands attention and perfectly embodies our brand identity."</p>
+                <div className='col-4 col-md-6 col-xs-12'>
+                        <div className='gap-fix'>
+                            <img src="https://images.pexels.com/photos/30530416/pexels-photo-30530416.jpeg" alt="" />
+                            <h2>The Human Edge</h2>
+                            <p>As AI handles the "boring" 70% of our daily tasks, the value of human judgment has skyrocketed. In 2026, the most successful individuals are those who have mastered "AI literacy"—the ability to steer these powerful tools toward more meaningful, creative, and human-centered goals.</p>
                         </div>
                     </div>
                     <div className='col-4 col-md-6 col-xs-12'>
-                        <div className='card-feedback '>
-                            <p>img</p>
+                        <div className='gap-fix'>
+                            <img src="https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg" alt="" />
                             <h2>Digital strategies to grow your b'ss</h2>
-                            <p>"Working with Vynil was a truly exceptional experience from start to finish. Their creative excellence and commitment to quality were evident in every aspect of the project, from the initial consultation to the final installation."</p>
+                            <p>In 2026, digital strategy has moved past simple "online presence" to ecosystem orchestration. Growing a business now requires integrating autonomous AI, video-first discovery, and trust-based data models.</p>
                         </div>
                     </div>
                     <div className='col-4 col-md-6 col-xs-12'>
-                        <div className='card-feedback '>
-                            <p>img</p>
-                            <h2>Mobile Money Transformin economies</h2>
-                            <p>"Our new signage has elevated our brand image to new heights. It's a testament to their skill and dedication to delivering top-notch results."</p>
+                        <div className='gap-fix'>
+                            <img src="https://images.pexels.com/photos/14348488/pexels-photo-14348488.jpeg" alt="" />
+                            <h2>The Future: CBDCs and Beyond</h2>
+                            <p>Most major banks have now fully integrated with mobile money platforms, allowing users to move funds between traditional bank accounts and digital wallets with a single tap</p>
                         </div>
                     </div>
                 </div>

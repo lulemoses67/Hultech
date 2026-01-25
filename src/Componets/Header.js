@@ -42,9 +42,10 @@ const Header = (props) => {
             <div className="container">
                 <div className="row align-center">
                     <div className="col-xs-11 col-lg-4 d-none-md row align-center">
-                        <div className="col-2 col-xs-2">
+                        <div className="col-1 col-xs-1">
+                            <img src="./logo.png" alt="logo" />
                         </div>
-                        <div className="col-10 col-xs-10">
+                        <div className="col-11 col-xs-11">
                             <span className="logo">Hul<span className="small">tech</span></span>
                         </div>
                     </div>
