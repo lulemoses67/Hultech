@@ -30,7 +30,7 @@ const Feedback = () => {
                     </div>
                 </div>
                 <div className="btn-group-rt">
-                    <a className='btn-primary' href="/contact"><i className="fa-solid fa-circle-arrow-right"></i> Readmore</a>
+                    <a className='btn-detail' href="/contact"><i className="fa-solid fa-circle-arrow-right"></i> All Blogs</a>
                 </div>
             </div>
         </section>

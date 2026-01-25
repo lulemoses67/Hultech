@@ -39,7 +39,7 @@ const Featured = () => {
                         </div>
                     </div>
                     <div className="btn-group-rt">
-                        <button className="btn-primary">Gallery</button>
+                        <button className="btn-danger">Gallery</button>
                     </div>
                 </div>
             </section>
