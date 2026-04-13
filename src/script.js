@@ -1,3 +1,14 @@
+document.body.addEventListener('click', function(event) {
+  // Check if the clicked element is a link
+  if (event.target.tagName === 'A') {
+    event.preventDefault();
+    
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+});
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");

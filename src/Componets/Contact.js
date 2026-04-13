@@ -1,8 +1,27 @@
-import React, { Component } from 'react';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-class Contact extends Component {
-    render() {
-        return (
+const Contact = () => {
+            const form = useRef();
+
+            const sendEmail = (e) => {
+            e.preventDefault();
+
+            emailjs
+            .sendForm('service_wp6p117', 'template_yecbclo', form.current, {
+                publicKey: '2cVv8kPPvY6awQBFE',
+            })
+            .then(
+                () => {
+                console.log('SUCCESS!');
+                form.current.reset()
+                },
+                (error) => {
+                console.log('FAILED...', error.text);
+                },
+            );
+            };
+            return (
             <>
                 <section className="reveal active fade-in row align-center">
                     <div className="container">
@@ -18,7 +37,7 @@ class Contact extends Component {
                         <h3 className="x4">Drop your message</h3>
                         <div className="row row-content">
                             <div className="col-12">
-                                <form>
+                                <form ref={form} onSubmit={sendEmail}>
                                     <div className="form-element">
                                         <label htmlFor="fullname">Full name</label>
                                         <input type="text" name="fullname" id="fullname" placeholder="Full name" required />
@@ -41,7 +60,6 @@ class Contact extends Component {
                 </section>
             </>
         );
-    }
 }
 
 export default Contact;

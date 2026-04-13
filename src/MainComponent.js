@@ -8,6 +8,7 @@ import About from './Componets/About';
 import Portfolio from './Componets/Portfolio';
 import Contact from './Componets/Contact';
 import BlogList from './Componets/BlogList.js';
+import BlogDetails from './Componets/partials/BlogDetail.js';
  
 class MainComponent extends Component {
     state = {}
@@ -22,6 +23,7 @@ class MainComponent extends Component {
                         <Route path='/gallery' Component={Portfolio} />
                         <Route path='/contact' Component={Contact} />
                         <Route path='/blog' Component={BlogList} />
+                        <Route path='/more/:id' Component={BlogDetails} />
                         <Route path='/*' Component={Notfound} />
                     </Routes>
                 </main>

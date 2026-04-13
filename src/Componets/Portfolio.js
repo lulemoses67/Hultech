@@ -26,6 +26,9 @@ class Portfolio extends Component {
                                     </p>
                                     <p>Anolog clock designed using html, css and javascript give you realtime update according your time zones, 
                                     it's open source and is easy to intergrate.</p>
+                                    <div className="btn-group-rt">
+                                        <a href="https://github.com/lulemoses67/JavaScript-Clock/" className='btn-danger'>Github</a>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-3 col-md-6 col-xs-12">
@@ -39,6 +42,9 @@ class Portfolio extends Component {
                                     </p>
                                     <p>ODigital calculator app that can perform althemic tasks very fast and effecient
                                     designed using html, css and javascript.</p>
+                                    <div className="btn-group-rt">
+                                        <a href="https://github.com/lulemoses67/JavaScript-Calculator-" className='btn-danger'>Github</a>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-3 col-md-6 col-xs-12">
@@ -51,6 +57,9 @@ class Portfolio extends Component {
                                         <i className="fab fa-github"></i>
                                     </p>
                                     <p>A CSS Library used to develop awesome user interface and user experience like this site is using.Developed in sass and some javascript, it can be modified and very easy to use by adding classname to elements.</p>
+                                    <div className="btn-group-rt">
+                                        <a href="https://github.com/lulemoses67/Hulstrap" className='btn-danger'>Github</a>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-3 col-md-6 col-xs-12">
@@ -63,6 +72,9 @@ class Portfolio extends Component {
                                         <i className="fab fa-github"></i>
                                     </p>
                                     <p>An awesome Portfolio for any professional worker to highlight his or her experience and projects done in certain feilds. Responsivr and also designed using Hulstrap our css library</p>
+                                    <div className="btn-group-rt">
+                                        <a href="https://lulemoses67.github.io/lulemoses.github.io/" className='btn-danger'>Link</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
