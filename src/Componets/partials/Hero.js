@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero = (props) => {
     return (
@@ -9,7 +10,7 @@ const Hero = (props) => {
                     <h2 className='x4'>{props.title}</h2>
                     <p>{props.body}</p>
                     <div className="btn-group-rt">
-                        <a href="/contact" className="btn-detail">About Us</a>
+                    <Link to={'./about'} className='btn-outline'>About us</Link>
                     </div>
                 </div>
             </div>

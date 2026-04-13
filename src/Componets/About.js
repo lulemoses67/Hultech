@@ -29,6 +29,8 @@ class About extends Component {
                                 <li><p>Building a brand identity and online presence through the creation and sharing of multimedia content online.</p></li>
                                 <li><h3>Graphics Design <i className='fa-solid fa-edit text-warning'></i></h3></li>
                                 <li><p>We visualize and create graphics including illustrations, logos, layouts and photos. We design most of the graphics we use in our programs.</p></li>
+                                <li><h3>Tech Advice <i className='fa-solid fa-book text-warning'></i></h3></li>
+                                <li><p>Contact us for any technology advice, what to make a decission on certain technology problem that is disturbing you contact us for expert solution</p></li>
                             </ul>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ const Preloader = () => {
         <>
         {isOpen && <div className='bg-light test-primary' id='preLoader'>
             <div className='content bg-dark text-white text-center'>
-                <p>3D Signs</p>
+                <p>Hultech</p>
             </div>
         </div>}
         </>

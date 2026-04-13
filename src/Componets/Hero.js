@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Hero extends Component {
     render() {
@@ -10,8 +11,7 @@ class Hero extends Component {
                         <h2 className='x4'>Turning Clicks into Clients</h2>
                         <p>Move and Grow your business online Today with our expert.</p>
                         <div className="btn-group-rt">
-                            <a href="/about" className="btn-outline">Contact Us</a>
-                            <a href="/contact" className="btn-outline">About Us</a>
+                            <Link to={'./about'} className='btn-outline'>AboutS</Link>
                         </div>
                     </div>
                 </div>

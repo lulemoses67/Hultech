@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 const Feedback = () => {
     return (
@@ -30,7 +30,7 @@ const Feedback = () => {
                     </div>
                 </div>
                 <div className="btn-group-rt">
-                    <a className='btn-detail' href="/contact"><i className="fa-solid fa-circle-arrow-right"></i> All Blogs</a>
+                    <Link className='btn-detail' to="/blog"><i className="fa-solid fa-circle-arrow-right"></i> All Blogs</Link>
                 </div>
             </div>
         </section>

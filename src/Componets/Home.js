@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Hero from "./partials/Hero.js";
 import Featured from './partials/Featured.js';
 import WhyUs from './partials/WhyUs.js';
@@ -25,7 +26,7 @@ class Home extends Component {
                                     <p>Our commitment to high-performance architecture and technical innovation ensures that your digital presence leads the market. From scalable enterprise frameworks to immersive user interfaces, our expert developers deliver nothing short of digital excellence.</p>
                                 </div>
                                 <div className="btn-group-rt">
-                                    <button className="btn-detail">Get Started</button>
+                                <Link to={'./contact'} className='btn-outline'>Contact Us</Link>
                                 </div>
                             </div>
                         </div>

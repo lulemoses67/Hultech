@@ -23,7 +23,7 @@ const Header = (props) => {
     }, []);
 
     const toogleNav = () => {
-        // window.scrollTo(0,0);
+        window.scrollTo(0,0);
         isNavOpen && window.innerWidth < 538 ? setIsNavOpen(false) : setIsNavOpen(true);
     }
     var navs = document.getElementsByTagName('a');

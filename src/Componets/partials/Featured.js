@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const Featured = () => {
     return (
@@ -39,7 +39,7 @@ const Featured = () => {
                         </div>
                     </div>
                     <div className="btn-group-rt">
-                        <button className="btn-danger">Gallery</button>
+                        <Link to={'./gallery'} className='btn-outline'>Gallery</Link>
                     </div>
                 </div>
             </section>
