@@ -3,10 +3,9 @@ import BlogTemplate from "./partials/BlogTemplate";
 import Preloader from "./partials/PreviewLoad";
 
 const BlogList = () => {
-    const { error, isPending, data: blogs } = useFetch('https://jsonplaceholder.typicode.com/posts');
-
+    const { error, isPending, data: blogs } = useFetch('blogs');
         return (
-            <>
+            <> 
                 { isPending && <Preloader /> }
                 <section className='reveal active fade-in'>
                     <div className="container">

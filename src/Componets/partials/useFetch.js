@@ -1,33 +1,49 @@
 import { useState, useEffect } from 'react';
+import { db } from '../firebaseConfig'; // Verified from your folder structure
+import { collection, getDocs, getDoc, doc } from 'firebase/firestore';
 
-const useFetch = (url) => {
+const useFetch = (collectionName, id = null) => {
   const [data, setData] = useState(null);
   const [isPending, setIsPending] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    setTimeout(() => {
-      fetch(url)
-      .then(res => {
-        if (!res.ok) { // error coming back from server
-          throw Error('could not fetch the data for that resource');
-        } 
-        return res.json();
-      })
-      .then(data => {
-        setIsPending(false);
-        setData(data);
+    const fetchData = async () => {
+      setIsPending(true);
+      try {
+        if (id) {
+          // 1. Logic for a single document
+          const docRef = doc(db, collectionName, id);
+          const snapshot = await getDoc(docRef);
+
+          if (snapshot.exists()) {
+            setData({ ...snapshot.data(), id: snapshot.id });
+          } else {
+            throw new Error("That document does not exist");
+          }
+        } else {
+          // 2. Logic for the entire collection (array)
+          const colRef = collection(db, collectionName);
+          const snapshot = await getDocs(colRef);
+          const results = snapshot.docs.map(doc => ({ 
+            ...doc.data(), 
+            id: doc.id 
+          }));
+          setData(results);
+        }
         setError(null);
-      })
-      .catch(err => {
-        // auto catches network / connection error
-        setIsPending(false);
+      } catch (err) {
         setError(err.message);
-      })
-    }, 1000);
-  }, [url])
+        console.error(err.message);
+      } finally {
+        setIsPending(false);
+      }
+    };
+
+    fetchData();
+  }, [collectionName, id]); // Added id to dependency array
 
   return { data, isPending, error };
-}
- 
+};
+
 export default useFetch;

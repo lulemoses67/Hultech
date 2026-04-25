@@ -3,7 +3,8 @@ import useFetch from "./useFetch";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: blog, error, isPending } = useFetch('https://jsonplaceholder.typicode.com/posts/' + id);
+  const { data: blog, error, isPending } = useFetch('blogs', id);
+
 
   return (
     <section className='"reveal active fade-in'>
@@ -15,7 +16,7 @@ const BlogDetails = () => {
                     { blog && (
                         <article>
                         <h2>{ blog.title }</h2>
-                        <img src="https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg" alt="" />
+                        <img src={blog.imgUrl} alt="" />
                         <p>{ blog.body }</p>
                         </article>
                     )}
