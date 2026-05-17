@@ -14,8 +14,8 @@ class Portfolio extends Component {
                 </section>
                 <section className="reveal fade-in">
                     <div className="container">
-                        <div className="row justify-center row-content">
-                            <div className="col-3 col-md-6 col-xs-12">
+                        <div className="row row-content">
+                            <div className="col-12 col-md-6 col-xs-12">
                                 <div className="gap-fix">
                                     <h2>Clock</h2>
                                     <p>
@@ -31,7 +31,24 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-3 col-md-6 col-xs-12">
+                            <div className="col-12 col-md-6 col-xs-12">
+                                <div className="gap-fix">
+                                    <h2>Perfumes Stores</h2>
+                                    <p>
+                                        <i className="fab fa-html5"></i>
+                                        <i className="fab fa-css"></i>
+                                        <i className="fab fa-js"></i> 
+                                        <i className="fab fa-github"></i>
+                                        <i className="fab fa-firebase"></i>
+                                    </p>
+                                    <p>Welcome to Brevia, where we believe a scent is more than just a fragrance—it is a signature of your identity.
+                                    Based in the heart of Masaka Town and reaching enthusiasts worldwide through our online boutique, we specialize in the creation, distribution, and retail of premium perfumes, colognes, and essential oils</p>
+                                    <div className="btn-group-rt">
+                                        <a href="https://brevia-metroman.vercel.app/" className='btn-danger'>Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-xs-12">
                                 <div className="gap-fix">
                                     <h2>Calculator</h2>
                                     <p>
@@ -47,7 +64,23 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-3 col-md-6 col-xs-12">
+                            <div className="col-12 col-md-6 col-xs-12">
+                                <div className="gap-fix">
+                                    <h2>ehardware</h2>
+                                    <p>
+                                        <i className="fab fa-js"></i> 
+                                        <i className="fab fa-react"></i>
+                                        <i className="fab fa-sass"></i>
+                                        <i className="fab fa-github"></i>
+                                    </p>
+                                    <p>ODigital calculator app that can perform althemic tasks very fast and effecient
+                                    designed using html, css and javascript.</p>
+                                    <div className="btn-group-rt">
+                                        <a href="https://ehardware.vercel.app/" className='btn-danger'>Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-xs-12">
                                 <div className="gap-fix">
                                     <h2>Hulstrap</h2>
                                     <p>
@@ -62,7 +95,7 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-3 col-md-6 col-xs-12">
+                            <div className="col-12 col-md-6 col-xs-12">
                                 <div className="gap-fix">
                                     <h2>Personal site</h2>
                                     <p>

@@ -10,7 +10,7 @@ class Home extends Component {
         return (
             <div>
                 <div className="text-white">
-                <Hero bgimg="https://images.pexels.com/photos/8088449/pexels-photo-8088449.jpeg" title="Turning Clicks into Clients" body="Move and Grow your business online Today with our experts"/>
+                <Hero />
                 </div>
                 <section className='reveal fade-in'>
                     <div className="container">

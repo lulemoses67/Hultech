@@ -34,7 +34,7 @@ const Contact = () => {
                 <hr />
                 <section className="reveal fade-in">
                     <div className="container">
-                        <h3 className="x4">Drop your message</h3>
+                        <h3 className="x4 text-center">Drop your message</h3>
                         <div className="row row-content">
                             <div className="col-12">
                                 <form ref={form} onSubmit={sendEmail}>

@@ -4,10 +4,10 @@ import MainComponent from "./MainComponent.js";
 
 function App() {
   return (
-    <>
+    <div>
      <Preloader />
      <MainComponent/>
-    </>
+    </div>
   );
 }
 

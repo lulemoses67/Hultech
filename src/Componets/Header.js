@@ -38,7 +38,7 @@ const Header = (props) => {
 
     return (
         <>
-            <header className="bg-light row align-center text-dark">
+            <header className="bg-dark row align-center text-white">
             <div className="container">
                 <div className="row align-center">
                     <div className="col-xs-11 col-lg-4 d-none-md row align-center">
